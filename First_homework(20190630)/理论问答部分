@@ -1,0 +1,35 @@
+0. Can you come up out 3 sceneraies which use AI methods?（你能想出3个使用人工智能方法的场景吗？）
+Ans: 新闻分类，自动驾驶，作文自动评分，车牌识别。以至于现在比较火的垃圾分类处理。
+
+1. How do we use Github; Why do we use Jupyter and Pycharm;（我们如何使用Github；为什么要使用Jupyter和Pycharm；）
+Ans: github简单命令：git clone 地址
+     github commit -m '注释'
+     github push
+     github pull
+
+     Jupyter和Pycharm,都是python编程工具，个人对于python编程比较习惯使用Pycharm，可能由于原来开发java项目使用intellij IDEA，从而比较习惯pycharm吧。
+
+2. What's the Probability Model? （概率模型是什么？）
+Ans:
+
+3. Can you came up with some sceneraies at which we could use Probability Model? （你能想出一些我们可以使用概率模型的场景吗？）
+Ans:
+
+4. Why do we use probability and what's the difficult points for programming based on parsing and pattern match? （为什么我们要使用概率，基于解析和模式匹配的编程难点是什么）
+Ans:
+
+5. What's the Language Model; （语言模型是什么）
+Ans:
+
+6. Can you came up with some sceneraies at which we could use Language Model? （你能想出一些我们可以使用语言模型的场景吗？）
+Ans:
+
+7. What's the 1-gram language model; （1-gram语言模型是什么？）
+Ans:
+
+8. What's the disadvantages and advantages of 1-gram language model; （1-gram语言模型的缺点和优点是什么？）
+Ans:
+
+9. What't the 2-gram models; （2-gram语言模型是什么？）
+Ans:
+
