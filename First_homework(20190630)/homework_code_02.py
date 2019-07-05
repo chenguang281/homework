@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import random
+
 # 自己练习
 host = """
 host = 时间名词 主语名词 形容词 动词 事务名词 
@@ -32,7 +33,7 @@ def generate(gram, target):
     if target not in gram:
         return target
     return ''.join(
-        [e if e is not '/n' else '\n' for e in [generate(gram, t) for t in choice(gram[target])] if e != 'null'])
+        [e for e in [generate(gram, t) for t in choice(gram[target])] if e != 'null'])
 
 
 if __name__ == '__main__':

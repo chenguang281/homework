@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import random
+
 # 课堂练习
 simple_grammar = """
 sentence => noun_phrase verb_phrase
@@ -49,11 +50,11 @@ def generate(gram, target):
     return ''.join([e if e != '/n' else '\n' for e in [generate(gram, t) for t in choice(gram[target])] if e != 'null'])
 
 
-def generate_n(gram, target, n=10):
+def generate_n(gram, target):
     if target not in gram:
         return target
     return ''.join(
-        [e if e != '/n' else '\n' for e in [generate_n(gram, t, 1) for t in choice(gram[target])] if e != 'null'])
+        [e for e in [generate_n(gram, t) for t in choice(gram[target])] if e != 'null'])
 
 
 if __name__ == '__main__':
