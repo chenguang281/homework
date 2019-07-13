@@ -1,0 +1,21 @@
+2. Answer following questions:
+1. Why do we need machine learning methods instead of creating a complicated formula?
+Ans: 很多公式太复杂，人类无法去定义这样的公式。
+
+2. Wha't's the disadvantages of the 1st Random Choosen methods in our course?
+Ans:
+
+3. Is the 2nd method supervised direction better than 1st one? What's the disadvantages of the 2nd supversied directin method?
+Ans:
+
+4. Why do we use Derivative / Gredient to fit a target function?
+Ans:
+
+5. In the words 'Gredient Descent', what's the Gredient and what's the Descent?
+Ans:
+
+6. What's the advantages of the 3rd gradient descent method compared to the previous methods?
+Ans:
+
+7. Using the simple words to describe: What's the machine leanring.
+Ans:机器学习一般是基于 概率，规则，搜索的，也就是我们要设计一个函数，来满足我们的输入参数，达到我们想要的预期结果。这就是我理解的一个机器学习的过程。
