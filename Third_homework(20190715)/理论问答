@@ -1,0 +1,33 @@
+Why do we use Derivative / Gredient to fit a target function?¶
+Ans:导数也就是当前点的切线斜率，得到导数以后，通过导数可以快速的得到变换方向。
+
+
+In the words 'Gredient Descent', what's the Gredient and what's the Descent?¶
+Ans:
+
+
+What's the advantages of the 3rd gradient descent method compared to the previous methods?
+Ans:有固定方向改变参数，不是以前随机变化的了。
+
+Using the simple words to describe: What's the machine leanring.
+Ans:用数学的方法来解决现实中的问题，生活中每一个我们要实现的机器学习程序，都可以理解成为一个函数。
+
+Why do we need dynamic programming? What's the difference of dynamic programming and previous talked search problme?
+Ans:动态规划也就是我们考虑下一个选择步骤的同时，也考虑我们要选择的这个步骤与我们期待的结果还相差多少，从而得到我们的最优质结果。
+搜索只限于对结果的搜索，不在乎这个过程。也可以理解为一个穷举的过程。而动态规划，每一次选择都可以做出一个优质的方案，最后得到最优质的结果。切把我们搜索过的结果进行保存起来，下次不再进行运算。
+
+Why do we still need dynamic programming? Why not we train a machine learning to fit a function which could get the right answer based on inputs?
+Ans:
+
+Can you catch up at least 3 problems which could solved by Dynamic Programming?
+Ans:一步两步上楼梯情况；百钱买鸡；自我感觉玩那个什么消消乐也可以理解为动态规划。
+
+Can you catch up at least 3 problems wich could sloved by Edit Distance?
+
+Please summarize the three main features of Dynamic Programming, and make a concise explain for each feature.
+Ans：多决策，多方案；例如我们上面的一步两步上楼梯，我们每次走一步，走两步，都会得到不同的结果，就是我们的选择不是唯一的，有很多种情况需要我们处理选择。
+     可能重复：我们在决定下一步如何选择时，可能会遍历到上一次运行过的结果，我们可以进行保存，不至于下次继续运算，从而节省更多的时间
+     获得最优解：不同的决策。不同的方案我们会得到不同的结果，我们在这些决策和方案中，我们要得到我们所期待的数据。
+
+What's the disadvantages of Dynamic Programming? (You may need search by yourself in Internet)
+Ans：在我的理解中，我们所说的动态规划，也是一个穷举的过程，只不过，我们存储了我们过去计算过的结果。
