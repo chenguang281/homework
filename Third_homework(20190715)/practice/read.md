@@ -54,16 +54,3 @@ https://www.w3schools.com/sql/sql_intro.asp
 Learn what's the HTML ( ONLY need to know the basic things)
 
 https://getbootstrap.com/; https://www.w3schools.com/html/
-
-
-(Optinal) Finish the k-person-salesman problem:
-In [7]:
-import random
-import matplotlib.pylab as plt
-In [8]:
-latitudes = [random.randint(-100, 100) for _ in range(20)]
-longitude = [random.randint(-100, 100) for _ in range(20)]
-In [9]:
-plt.scatter(latitudes, longitude)
-
-给定一个初始点 𝑃, 已经 𝑘个车辆，如何从该点出发，经这 k 个车辆经过所以的点全部一次，而且所走过的路程最短?
