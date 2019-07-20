@@ -1,0 +1,18 @@
+[
+  {
+    "name": "信息",
+    "address": "el-icon-info"
+  },
+  {
+    "name": "错误",
+    "address": "el-icon-error"
+  },
+  {
+    "name": "成功",
+    "address": "el-icon-success"
+  },
+  {
+    "name": "警告",
+    "address": "el-icon-warning"
+  }
+]
