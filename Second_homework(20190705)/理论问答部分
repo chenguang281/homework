@@ -1,21 +1,21 @@
-2. Answer following questions:
-1. Why do we need machine learning methods instead of creating a complicated formula?
-Ans: 很多公式太复杂，人类无法去定义这样的公式。
+1.为什么我们需要机器学习方法而不是创建一个复杂的公式？
+答案： 很多公式太复杂，人类无法去定义这样的公式。
 
-2. Wha't's the disadvantages of the 1st Random Choosen methods in our course?
-Ans:第一种每次只是随机选择，而不确定每次选择的每次选择的是否正确，效率低
+2.在我们的课程中，第一个随机选择方法的缺点是什么？
+答案：第一种每次只是随机选择，而不确定每次选择的每次选择的是否正确，效率低
 
-3. Is the 2nd method supervised direction better than 1st one? What's the disadvantages of the 2nd supversied directin method?
-Ans:第二种方法是有方向的进行处理，如果上一次处理的对的，我们还会继续沿着原来的放心继续处理
+3。第二种方法监督方向是否优于第一种方法？第二辅助直接法的缺点是什么？
+答案：第二种方法是有方向的进行处理，如果上一次处理的对的，我们还会继续沿着原来的放心继续处理
 
-4. Why do we use Derivative / Gredient to fit a target function?
-Ans:我们可以用该点的切线斜率，也就是该点的导数，可以缺点我们下一步该如何处理.
+4。为什么我们要用导数/灰度来拟合目标函数？
+答案：我们可以用该点的切线斜率，也就是该点的导数，可以缺点我们下一步该如何处理.
 
-5. In the words 'Gredient Descent', what's the Gredient and what's the Descent?
-Ans:
 
-6. What's the advantages of the 3rd gradient descent method compared to the previous methods?
-Ans:准备的得到我们要变换的方向。
+5.用“Gredient Descent”这个词来说，什么是Gredient，什么是Descent？
+答案：
 
-7. Using the simple words to describe: What's the machine leanring.
-Ans:机器学习一般是基于 概率，规则，搜索的，也就是我们要设计一个函数，来满足我们的输入参数，达到我们想要的预期结果。这就是我理解的一个机器学习的过程。
+6.与以前的方法相比，第三梯度下降法的优点是什么？
+答案：准备的得到我们要变换的方向,确保每次都是去拟合结果函数.不像第一种每次都是随机的,随机的不可以保证正确性.
+
+7. 用简单的词来描述：机器学习。
+答案:机器学习一般是基于 概率，规则，搜索的，也就是我们要设计一个函数，来满足我们的输入参数，达到我们想要的预期结果。这就是我理解的一个机器学习的过程。
