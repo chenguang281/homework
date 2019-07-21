@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 
 solution = {}
+
+
 def edit_distance(string1, string2):
     if len(string1) == 0: return len(string2)
     if len(string2) == 0: return len(string1)
@@ -29,7 +31,7 @@ def edit_distance(string1, string2):
 
 
 if __name__ == '__main__':
-    aa = edit_distance('AB','ABC')
+    aa = edit_distance('AB', 'BC')
     print(aa)
     for i in solution:
         print(i)
