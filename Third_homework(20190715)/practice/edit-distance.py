@@ -12,8 +12,8 @@ def edit_distance(string1, string2):
     tail_s2 = string2[-1]
 
     candidates = [
-        (edit_distance(string1[:-1], string2) + 1, 'DEL {}'.format(tail_s1)),  # string 1 delete tail
-        (edit_distance(string1, string2[:-1]) + 1, 'ADD {}'.format(tail_s2)),  # string 1 add tail of string2
+        (edit_distance(string1[:-1], string2) + 1, 'DEL {}'.format(tail_s1)),  # string 1.txt delete tail
+        (edit_distance(string1, string2[:-1]) + 1, 'ADD {}'.format(tail_s2)),  # string 1.txt add tail of string2
     ]
 
     if tail_s1 == tail_s2:
